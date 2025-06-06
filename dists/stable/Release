@@ -1,0 +1,24 @@
+Architectures: amd64
+Codename: stable
+Components: main
+Date: Fri, 06 Jun 2025 09:21:07 +0000
+Description: Sparrow Debian Repository
+Label: Sparrow
+Origin: Sparrow
+Suite: stable
+MD5Sum:
+ d59a62cff97e337473beaad0777a46a8              177 Release
+ 4d7f6bbe24648242034bed934e6aabf4              426 main/binary-amd64/Packages
+ 0fb98fbeb603c639aaf89fe4c6c28d53              336 main/binary-amd64/Packages.gz
+SHA1:
+ 8583dde9e12cee2cd200db2ab2c785c65df44723              177 Release
+ f069592dfa91dfb9705accde34f6591ea784b190              426 main/binary-amd64/Packages
+ 8c2af8843375aed66e9b30234af3fe74a59598e2              336 main/binary-amd64/Packages.gz
+SHA256:
+ e482b4ce89d23056d8921f30204c69b471e691387c95f370dd4e9f2252818c1c              177 Release
+ 47c6d0dbc9325835ebec5e66a20ddf6c781c5a151f9e854852a9ff51b0ef7580              426 main/binary-amd64/Packages
+ 0a94aa737106bf54fe14cd62ea6b024b17613fc6fdcea2180adeb0204d19a061              336 main/binary-amd64/Packages.gz
+SHA512:
+ 5118c835bb60eecc1a037a1a51c0e674e26421eec00253d9883350db93855483a9f45f9e6cea6f03ca210f6b88c47cdd51875b48ef25d7bd6f8dea45014217ce              177 Release
+ ce5c72dc9e452052c8c802db463933969b0da96be3bb9f3022d9c98f83bde898aaffc6cac16b429068861150ebe5bb9808fd531d93a87d8d84207ec5e08fccc6              426 main/binary-amd64/Packages
+ 7d33a7705b1a01e60bec57454e5754eb44722d1b1b77c7c2512f7b783888662d87bae39ca4d471d027dc593f334ed6063857edfc56715e352533c366df1fd040              336 main/binary-amd64/Packages.gz
