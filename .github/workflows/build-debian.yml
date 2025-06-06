@@ -44,7 +44,7 @@ jobs:
           
       - name: Install Yarn (Ubuntu 24.04 compatible)
         run: |
-          # Create keyring directory if it doesn't exist
+          # Create keyring directory if it doesn't exists
           sudo mkdir -p /etc/apt/keyrings
 
           # Download and store Yarn GPG key in the proper format
