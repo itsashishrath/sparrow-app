@@ -18,7 +18,7 @@ jobs:
       TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repo-
         uses: actions/checkout@v3
 
       - name: Setup Rust 1.82.0
@@ -41,6 +41,7 @@ jobs:
         run: |
           curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
           sudo apt-get install -y nodejs
+          
       - name: Install Yarn (Ubuntu 24.04 compatible)
         run: |
           # Create keyring directory if it doesn't exist
@@ -58,12 +59,16 @@ jobs:
           
       - name: Inject .env for Desktop
         run: |
+          pwd
+          ls
           cat > apps/@sparrow-desktop/.env << 'EOF'
           ${{ secrets.DESKTOP_ENV_FILE }}
           EOF
 
       - name: Inject .env for WEB
         run: |
+          pwd
+          ls
           cat > apps/@sparrow-web/.env << 'EOF'
           ${{ secrets.WEB_ENV_FILE }}
           EOF
